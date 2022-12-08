@@ -20,7 +20,7 @@ export default function City({ city }) {
         <div className="card-footer text-muted">
           {" "}
           <h5 className="card-text">
-            <Link to="/">
+            <Link to="/weather-app">
               <button type="button" className="btn btn-lg btn-info col-md-12">
                 Go Home!
               </button>

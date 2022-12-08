@@ -47,7 +47,7 @@ function App() {
       <Nav onSearch={onSearch}/>
       <ParticleSnow />
       <Switch>
-        <Route exact path='/'>
+        <Route exact path='/weather-app/'>
           <Cards
             cities={cities}
             onClose={onClose}
